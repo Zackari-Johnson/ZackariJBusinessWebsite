@@ -78,7 +78,7 @@ html, body {
 }
 .beach-icon {
   height: 100%;
-  margin-left: 15%;
+  margin-left: 17%;
   width: 100%;
   display: inline-block;
 }
@@ -245,7 +245,7 @@ color: #F3F7FD;
 .submit {
   display: inline-block;
   height: 100px;
-  width: 250px;
+  width: 225px;
   background-color: #B7C8E2;
   border-radius: 10px;
   margin-left: 10.3%;
@@ -384,10 +384,7 @@ color: #F3F7FD;
 
 #search:hover .searchdropdown {
   display: block;
-}
-#search:hover .searchp {
-  display: block;
-}
+} 
 
 .vacay {
   width: 100%;
@@ -396,33 +393,50 @@ color: #F3F7FD;
   margin-top: 7.5%;
 }
 
-.abtsides {
-  height: 101%;
-  width: 49%;
-  margin: 0px;
-  display: inline-block;
-}
-
-.topbox {
-  width: 100%;
+.lefsid {
   height: 100%;
-  margin: 0px;
-  display: inline-block;
+  width: 35%;
   background-color: #E3DEC4;
+  display: inline-block;
+  vertical-align: middle;
 }
 
-
-.rightnavbar {
+.vsep2 {
   height: 100%;
-  width: 10%;
-  margin: 0px;
+  width: 15px;
+  background-color: #F3F7FD;
+  float: right;
+}
+.vsep1 {
+  height: 100%;
+  width: 15px;
+  background-color: #c3d0e5;
+  float: right
+}
+.rigsid {
+  width: 63.6%;
+  height: 100%;
+  margin-left: 1%;
   display: inline-block;
+  vertical-align: middle;
+}
+.vnavbar {
+  float: right;
+  width: 70px;
+  height: 100%;
   background-color: #F3F7FD;
 }
+#vnavim {
+  float: top;
+  height: 40px;
+  width: 45px;
+  margin-left: 12.5px;
+  margin-top: 15px;
+}
 
-.boxs {
-  width: 89%;
+.pbox {
+  width: 370px;
   height: 100%;
-  margin: 0px;
+  margin-left: 35px;
   display: inline-block;
 }
