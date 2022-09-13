@@ -2,7 +2,9 @@
 <html>
 
 <head>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;600&display=swap" rel="stylesheet">
@@ -11,11 +13,14 @@
   <title>You Love It Travels</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
- <div class="header">
+  <div class="header">
     <div class="nav">
       <div class="left-nav">
-        <img class="nav-menu-image" src="burger-icon.png"/>
+        <div onclick="audioChange()" style="display: inline-block;">
+          <img class="nav-menu-image" id="audioicon" src="novolume.png" />
+        </div>
         <h2 class="nav-title">You Love It Travels</h2>
       </div>
       <div class="right-half">
@@ -24,7 +29,7 @@
       </div>
     </div>
     <div class="separators">
-     <div class="separator1">
+      <div class="separator1">
       </div>
       <div class="separator2">
       </div>
@@ -34,30 +39,34 @@
       </div>
     </div>
   </div>
-   <div class="main-content">
+  <div class="main-content">
     <div class="top-half">
       <div class="left-side box">
         <h3 class="bigtext">Find Your Agent.</h3>
         <h4 class="smalltext">Pick the perfect person to help you vacation</h4>
         <div class="button">
           <a class="button-text" href="contact.html"> Join </a>
-          </div>
+        </div>
       </div>
       <div class="right-side box">
-        <img class="beach-icon" src="beach.png"/>
-        </div>
-     </div>
-     <div class="separatora">
-      </div>
-      <div class="separatorb">
-      </div>
-      <div class="separatorc">
-      </div>
-    <div class="bottom-half">
-     <img class="logobig" src="logo.png"/>
-     <img class="statspic" src="stats.png"/>
+        <img class="beach-icon" src="beach.png" />
       </div>
     </div>
+    <div class="separatora">
+    </div>
+    <div class="separatorb">
+    </div>
+    <div class="separatorc">
+    </div>
+    <div class="bottom-half">
+      <img class="logobig" src="logo.png" />
+      <img class="statspic" src="stats.png" />
+    </div>
+  </div>
+  <script src="stuff.js"></script>
+  <audio id="musicplayer" loop="true">
+    <source src="hawaiian.mp3" type="audio/mpeg">
+  </audio>
 </body>
 
 </html>
